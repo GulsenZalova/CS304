@@ -1,0 +1,79 @@
+
+/* Text And Font */
+
+
+.salam{
+    color: aqua;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+li>a{
+    text-decoration: none;
+    /* color: white; */
+}
+
+
+
+/* Bod Model */
+.boxes{
+    position: relative;
+    border: 1px solid red;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+
+}
+.box{
+    top: 20px;
+    right: 20px;
+    border: 1px solid black;
+    padding: 10px 20px 30px 40px;
+    /* margin: 10px 20px 30px 40px;
+    margin: 10px 20px; */
+    border-radius: 8px;
+}
+
+.box3{
+    position: absolute;
+}
+/* List */
+
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+    color: white;
+     background-color: aqua;
+}
+
+
+
+/* Layout */
+.product{
+    background-color: black;
+    border: 1px solid black;
+    width: 300px;
+    opacity: 0.6;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+}
+
+
+
+
+
+
+

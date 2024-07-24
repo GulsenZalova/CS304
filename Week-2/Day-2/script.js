@@ -69,15 +69,15 @@ GetDatas()
 //     }
 // }
 
-// async function DeleteData(id) {
-//     let datas = await axios.delete(`https://northwind.vercel.app/api/categories/${id}`)
-//     try{
-//         console.log(datas.data)
-//         // CreateCards(datas.data)
-//     }catch(err){
-//         console.log(err)
-//     }
-// }
+async function DeleteData(id) {
+    let datas = await axios.delete(`https://northwind.vercel.app/api/categories/${id}`)
+    try{
+        console.log(datas.data)
+        // CreateCards(datas.data)
+    }catch(err){
+        console.log(err)
+    }
+}
 
 
 // async function PostData() {
